@@ -13,6 +13,7 @@
 		8DC964022447A0CA00CDB5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC964002447A0CA00CDB5E7 /* Main.storyboard */; };
 		8DC964042447A0CC00CDB5E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC964032447A0CC00CDB5E7 /* Assets.xcassets */; };
 		8DC964072447A0CC00CDB5E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC964052447A0CC00CDB5E7 /* LaunchScreen.storyboard */; };
+		8DC9640F2447A47C00CDB5E7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9640E2447A47C00CDB5E7 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8DC964032447A0CC00CDB5E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DC964062447A0CC00CDB5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DC964082447A0CC00CDB5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC9640E2447A47C00CDB5E7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				8DC963FA2447A0CA00CDB5E7 /* AppDelegate.swift */,
 				8DC963FC2447A0CA00CDB5E7 /* SceneDelegate.swift */,
+				8DC9640E2447A47C00CDB5E7 /* Model.swift */,
 				8DC963FE2447A0CA00CDB5E7 /* ViewController.swift */,
 				8DC964002447A0CA00CDB5E7 /* Main.storyboard */,
 				8DC964032447A0CC00CDB5E7 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				8DC963FF2447A0CA00CDB5E7 /* ViewController.swift in Sources */,
 				8DC963FB2447A0CA00CDB5E7 /* AppDelegate.swift in Sources */,
 				8DC963FD2447A0CA00CDB5E7 /* SceneDelegate.swift in Sources */,
+				8DC9640F2447A47C00CDB5E7 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
