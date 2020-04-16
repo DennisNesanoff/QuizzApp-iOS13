@@ -15,7 +15,7 @@ struct QuizQuestion {
 }
 
 class Quiz {
-    var questions: [QuizQuestion] = [
+    private var questions: [QuizQuestion] = [
         QuizQuestion(correctAnswer: true, question: "Is this a tree?", image: UIImage(named: "tree")!),
         QuizQuestion(correctAnswer: false, question: "Is this a dog?", image: UIImage(named: "car")!),
         QuizQuestion(correctAnswer: false, question: "Is this a person?", image: UIImage(named: "mug")!)
@@ -26,5 +26,34 @@ class Quiz {
     
     func getScore() -> String {
         return "\(score) \\ \(questions.count)"
+    }
+    
+    func getQuestion() -> QuizQuestion {
+        return questions[questionIndex]
+    }
+    
+    func check(answer: Bool) -> Bool {
+        let question = getQuestion()
+        
+        if question.correctAnswer == answer {
+            score += 1
+            return true
+        }
+        
+        return false
+    }
+    
+    func nextQuestion() -> Bool {
+        if questionIndex < questions.count - 1 {
+            questionIndex += 1
+            return true
+        }
+        
+        return false
+    }
+    
+    func reset() {
+        questionIndex = 0
+        score = 0
     }
 }
